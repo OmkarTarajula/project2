@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-2</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }     
+         #main{
+            height: 600px;
+            width: 1100px;
+            border: solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url(bg.png);
+        }
+        #product
+        {
+            height: 500px;
+            width: 1000px;
+            display: flex;
+            
+        }
+        #left
+        {
+           height: 500px;
+           width: 500px;
+           border-radius: 0px 50% 50% 0px;
+           background-color: orangered;
+          
+
+        }
+        #right
+        {
+           height: 500px;
+           width: 500px;
+           
+          
+        }
+        #img
+        {
+            position: relative;
+            top: 100px;
+            width: 500px;
+            height: 400px;
+            left: -20px;
+            transition-duration: 2s;
+        }
+        #img:hover
+        {
+            position: relative;
+            top: 100px;
+            width: 500px;
+            height: 400px;
+            left: -20px;
+            transform: rotate(10deg);
+        }
+
+    </style>
+</head>
+<body>
+    <div id="main"> 
+        <div id="product">
+            <div id="left"> 
+                <img id="img" src="shoe.png" alt="">
+            </div>
+            <div id="right">
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
